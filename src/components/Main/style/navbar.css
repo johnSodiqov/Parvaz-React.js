@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none !important;
+}
+
+.navbar{
+    background-color: rgba(12, 0, 97, 1);
+    padding: 0 !important;
+}
+img{
+    width: 150px;
+}

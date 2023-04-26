@@ -1,0 +1,46 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(16, 16, 46);
+    background-image: url("/src/components/Main/Img/intro-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 0 5%;
+}
+
+.intro-text {
+    width: 50%;
+    color: white;
+    text-align: left;
+}
+.intro-text h1{
+    margin: 50px 0;
+    font-size: 60px;
+}
+.intro-text p{
+    margin: 50px 0;
+    opacity: .7;
+}
+
+.intro-img {
+    width: 50%;
+}
+.intro-img img{
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+.intro-products{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    background-color: #ffffff7b;
+    border-radius: 50px;
+}
+.intro-products img{
+    width: 10%;
+}
